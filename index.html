@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Notes App</title>
+  </head>
+  <body>
+    <nav>
+      <h3>MY NOTES</h3>
+      <ul>
+        <li><h4>Home</h4></li>
+        <li>
+          <input id="search-inp" type="search" /><button id="search-btn">
+            search
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h2>Welcome to My Notes</h2>
+      <div class="add-notes">
+        <h3>Add a Note</h3>
+        <textarea id="note-text" rows="4"></textarea>
+        <div class="note-bottom">
+            <div>
+          <label for="color">Choose Color</label>
+          <input id="color" type="color" />
+        </div>
+        <div>
+          <label for="font">Choose font</label>
+          <select id="font">
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>20</option>
+            </select>
+        </div>
+          <button id="add-btn">Add Note</button>
+        </div>
+      </div>
+      <hr />
+      <h2>Your Notes</h2>
+      <hr />
+      <div id="your-notes">
+        <div class="empty">
+          <h2>Nothing is here Add Notes</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

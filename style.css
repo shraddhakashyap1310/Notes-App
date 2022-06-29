@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 1rem;
+    font-size: 20px;
+}
+button{
+    height: 2rem;
+    width: 4rem;
+    border-radius: 5px;
+    border: none;
+    background-color: aquamarine;
+}
+ul{
+    margin-left: 2vw;
+    width: 84vw;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#search-inp{
+    height: 2rem;
+    width: 15rem;
+    border-radius: 5px;
+    border: none;
+}
+#search-btn{
+    margin-left: 4px;
+}
+.container{
+    margin: 2rem 14vw ;
+}
+.add-notes{
+    margin: 4vh 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1vw;
+}
+#note-text{
+    width: 95%;
+    margin: 2vh 0px;
+}
+#add-btn{
+    width: 5rem;
+}
+#your-notes{
+    margin: 2vh 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.note-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.note{
+    margin: 1vh;
+    padding: 1vw;
+    width: 29%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#dlt-btn{
+    width: 6rem;
+}
